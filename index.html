@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JPG to PNG Image Converter</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="des.css">
+  <script src="jav.js"></script> 
+</head>
+<body>
+   <div id="navbar">
+    <h1 class="header">JPG to PNG Image Converter</h1>
+    <img class="logo" src="logo.jpeg" alt="logo" >
+   </div>
+   <div id="menu">
+    <a href="index.html">HOME</a>
+    <a href="index3.html">ABOUT US</a>
+   </div>
+<section class="bgg">
+  <div class="container mt-5">
+    <h2 class="h21">jpg to png free image converter online</h2>
+<div class="sub">
+    <p class="subp">Select a JPG image to convert:</p>
+    <input type="file" id="imageInput" accept=".jpg, .jpeg" class="form-control-file">
+</div>
+<br>
+<br>
+<br>
+
+    <div class="form-group mt-3">
+      <label for="qualitySlider">PNG Quality:</label>
+      <input type="range" id="qualitySlider" min="0" max="1" step="0.1" value="0.8" class="form-control-range">
+      <span id="qualityValue">0.8</span>
+    </div>
+    
+    <div class="visi">
+    <div class="form-check">
+      <input type="checkbox" id="grayscaleCheckbox" class="form-check-input">
+      <label for="grayscaleCheckbox" class="form-check-label">Convert to Grayscale</label>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" id="resizeCheckbox" class="form-check-input">
+      <label for="resizeCheckbox" class="form-check-label">Resize Image</label>
+      <div class="form-row ml-3">
+        <div class="form-group col-md-4">
+          <label for="widthInput">Width:</label>
+          <input type="number" id="widthInput" class="form-control" min="1">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="heightInput">Height:</label>
+          <input type="number" id="heightInput" class="form-control" min="1">
+        </div>
+      </div>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" id="watermarkCheckbox" class="form-check-input">
+      <label for="watermarkCheckbox" class="form-check-label">Add Watermark</label>
+      <div class="form-row ml-3">
+        <div class="form-group col-md-8">
+          <label for="watermarkText">Watermark Text:</label>
+          <input type="text" id="watermarkText" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="watermarkColor">Watermark Color:</label>
+          <input type="color" id="watermarkColor" class="form-control">
+        </div>
+      </div>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" id="rotateCheckbox" class="form-check-input">
+      <label for="rotateCheckbox" class="form-check-label">Rotate Image</label>
+      <div class="form-row ml-3">
+        <div class="form-group col-md-4">
+          <label for="rotationAngle">Rotation Angle:</label>
+          <input type="number" id="rotationAngle" class="form-control" min="0" max="360" step="1">
+        </div>
+      </div>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" id="cropCheckbox" class="form-check-input">
+      <label for="cropCheckbox" class="form-check-label">Crop Image</label>
+      <div class="form-row ml-3">
+        <div class="form-group col-md-4">
+          <label for="cropX">X:</label>
+          <input type="number" id="cropX" class="form-control" min="0">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="cropY">Y:</label>
+          <input type="number" id="cropY" class="form-control" min="0">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="cropSize">Size:</label>
+          <input type="number" id="cropSize" class="form-control" min="1">
+        </div>
+      </div>
+    </div>
+  </div>
+    <button id="convertButton" class="btn btn-primary">Convert</button>
+    <div id="outputContainer">
+      <h2>Converted Image:</h2>
+      <img id="outputImage" class="mt-3">
+      <a id="downloadButton" class="btn btn-primary mt-3" download>Download</a>
+    </div>
+  </div>
+
+  </div>
+<div id="how">
+<p class="bold">HOW TO CONVERT JPG TO PNG?</p>
+<ol>
+  <li>Click the "choose file" button to  select your JPG files</li>
+  <li>click on the "convert" button to start conversion</li>
+  <li>Click on "Download" button which will automatically appear in front of you with a preview of the image selected by you</li>
+</ol>
+</div>
+<div id="how2">
+<p class="bold">OUR WEBSITE OFFERS : </p>
+<ol>
+  <li>Easy To Use Interface</li>
+  <li>Best quality</li>
+  <li>Fast and Secure</li>
+  <li>Absolutely Free of Cost</li>
+</ol>
+</div>
+
+<div class="footer">
+  <p>&copy; Copyright JPG TO PNG Converter Free Online reserved by Somesh Punpaliya, All Rights Reserved.</p>
+  </div>
+
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="jav.js"></script>
+
+
+
+</body>
+</html>
